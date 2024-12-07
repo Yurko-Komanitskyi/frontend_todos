@@ -1,0 +1,13 @@
+@use './../../styles/variables' as v;
+@use '../../styles/mixins' as mix;
+
+.login {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: v.$colorSecondary;
+
+  &__title {
+    color: v.$colorSurface2;
+  }
+}

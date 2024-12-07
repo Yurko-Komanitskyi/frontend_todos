@@ -1,0 +1,11 @@
+@use './../../styles/variables' as v;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: v.$colorSecondary;
+
+  &__navItem {
+    color: v.$colorElements;
+  }
+}
