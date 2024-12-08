@@ -45,7 +45,7 @@ export const Header: React.FC = () => {
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <UserMenu
             username={
-              'user' in auth
+              !!auth.user
                 ? `${auth.user.name} ${auth.user.surname}`
                 : 'Yusername'
             }
